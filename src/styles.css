@@ -1,7 +1,8 @@
-.danko {
-	background-color: blue;
-
-	.d{
-		color: red;
+.banner {
+	height: 90vh;
+	background-image: url("https://i.picsum.photos/id/237/200/300.jpg");
+	/*background-color: blue;*/
+	.header{
+		
 	}
 }
