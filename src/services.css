@@ -1,4 +1,21 @@
 
+.services {
+	padding: 30px;
+
+	.services-items {
+		text-align: center;
+		padding: 20px;		
+
+		h3 {
+			font-size: 50px;
+		}
+
+		p {
+			font-size: 40px;
+		}
+	}
+}
+
 @media only screen  and (min-width : 1224px) {
 	.services {
 		display: flex;
