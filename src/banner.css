@@ -10,11 +10,12 @@
 	.header {
 		color: white;
 		position: absolute;
-		right: 10%;
+		right: 50%;
 		bottom: 30%;
 	}
 
 	.header h4 {
 		font-weight: lighter;
+		margin-bottom: 30px;
 	}
 }

@@ -12,6 +12,8 @@ import mapboxgl from 'mapbox-gl';
 let longitude = 0;
 let latitude = 0;
 
+const navBar = document.querySelector(".navbar");
+
 const displayMap = () => {
   mapboxgl.accessToken = 'pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNqeWszNmdueDA5ZmMzZHE0cnhrdHkwMmUifQ.2JTPShL3KIjvqvYMKWUL3w';
   const map = new mapboxgl.Map({
@@ -35,5 +37,18 @@ const getCoordinates = (address) => {
       displayMap();
     });
 };
+
+const navBarScroll = () => {
+	if (window.pageYOffset > window.innerHeight) {
+		// alert("sddsd");
+		navBar.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+	} else {
+		navBar.style.backgroundColor = "rgba(0, 0, 0, 0)";
+	}
+}
+
+window.addEventListener('scroll', (e) => {
+  navBarScroll();
+});
 
 getCoordinates();

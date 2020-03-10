@@ -2,7 +2,7 @@
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0);
 	display: flex;
 	justify-content: space-between;
 	padding: 5px 15px 5px 15px;
@@ -18,8 +18,8 @@
 		display: flex;
 		justify-content: space-between;
 
-		div {
-			margin: 10px;
+		a {
+			margin-left: 10px;
 		}
 	}
 }
