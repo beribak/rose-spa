@@ -3,7 +3,8 @@ import './bio.css';
 import './banner.css';
 import './navbar.css';
 import './services.css';
-import './map.css';
+import './info.css';
+import './footer.css';
 import mapboxgl from 'mapbox-gl';
 
 
@@ -16,7 +17,7 @@ const displayMap = () => {
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
     center: [longitude, latitude],
-    zoom: 12
+    zoom: 14
   });
 
   new mapboxgl.Marker()
