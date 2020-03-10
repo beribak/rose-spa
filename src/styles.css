@@ -1,3 +1,36 @@
+body {
+	font-family: 'Sen', sans-serif;
+}
+
+.sen-font {
+	font-family: 'Sen', sans-serif;
+}
+
+.roboto-font {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	padding: 5px 15px 5px 15px;
+	display: flex;
+	justify-content: space-between;
+
+	.left-nav {
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.right-nav {
+		display: flex;
+		justify-content: space-between;
+
+		div {
+			margin: 10px;
+		}
+	}
+}
+
 .banner {
 	height: 90vh;
 	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
@@ -17,12 +50,4 @@
 	.header h4 {
 		font-weight: lighter;
 	}
-}
-
-.sen-font {
-	font-family: 'Sen', sans-serif;
-}
-
-.roboto-font {
-	font-family: 'Roboto', sans-serif;
 }
