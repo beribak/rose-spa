@@ -1,0 +1,29 @@
+.bio {
+	position: relative;
+	height: 60vh;
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
+	url("https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+	/*object-fit: cover;*/
+	background-size: cover;
+	background-position: center;
+	
+	/*object-position: center;*/
+	/*background-color: blue;*/
+	.bio-header{
+		text-align: center;
+		color: white;
+		position: absolute;
+		right: 5%;
+		bottom: 30%;
+		width: 40%;
+	}
+
+	.bio-header h1 {
+		border-bottom: 3px solid rgb(237, 38, 71);
+	}
+
+	.bio-header h4 {
+		font-weight: lighter;
+	}
+}
+
