@@ -1,18 +1,21 @@
-.services {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 15px;
 
-	.services-items {
-		text-align: center;
-		padding: 20px;		
+@media only screen  and (min-width : 1224px) {
+	.services {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 15px;
 
-		h3 {
+		.services-items {
+			text-align: center;
+			padding: 20px;		
 
-		}
+			h3 {
 
-		p {
+			}
 
+			p {
+
+			}
 		}
 	}
 }
