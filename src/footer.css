@@ -1,4 +1,22 @@
 
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 80px;
+	background-color: rgb(237, 172, 19); 
+
+	.footer-text {
+		
+		h4 {
+			font-size: 40px;
+		}
+
+		h6 {
+			font-size: 25px;
+		}
+	}
+}
+
 @media only screen  and (min-width : 1224px) {
 	.footer {
 		width: 100%;
@@ -7,6 +25,14 @@
 		background-color: rgb(237, 172, 19); 
 
 		.footer-text {
+
+			h4 {
+				font-size: 24px;
+			}
+
+			h6 {
+				font-size: 16px;
+			}
 
 		}
 	}

@@ -1,17 +1,39 @@
 
+.bio {
+	height: 60vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+	url("https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+	background-size: cover;
+	background-position: center;
+	padding: 40px;
+	text-align: center;
+
+	
+	.bio-header{
+		color: white;
+		margin-top: 10vh;
+	}
+
+	.bio-header h1 {
+		font-size: 80px;
+		border-bottom: 6px solid rgb(237, 38, 71);
+	}
+
+	.bio-header h4 {
+		font-weight: lighter;
+		font-size: 60px;
+	}
+}
+
 @media only screen  and (min-width : 1224px) {
 	.bio {
 		position: relative;
-		height: 60vh;
-		background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
+		background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
 		url("https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
-		/*object-fit: cover;*/
 		background-size: cover;
 		background-position: center;
-		
-		/*object-position: center;*/
-		/*background-color: blue;*/
-		.bio-header{
+
+		.bio-header{			
 			text-align: center;
 			color: white;
 			position: absolute;
@@ -21,10 +43,12 @@
 		}
 
 		.bio-header h1 {
+			font-size: 45px;
 			border-bottom: 3px solid rgb(237, 38, 71);
 		}
 
 		.bio-header h4 {
+			font-size: 25px;
 			font-weight: lighter;
 		}
 	}
