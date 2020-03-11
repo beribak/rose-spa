@@ -1,10 +1,13 @@
 {
+  "homepage": "https://beribak.github.io/rose-spa",
   "name": "rose-spa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --config ./webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +29,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "mapbox-gl": "^1.8.1"
   }
 }
