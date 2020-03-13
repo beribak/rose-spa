@@ -1,0 +1,53 @@
+
+ .schedule {
+ 	
+ 	color: black;
+ 	
+ 	ul {
+		
+		padding: 0px;
+		list-style: none;
+		padding-bottom: 20px;
+		li {
+
+			div {
+
+				margin: auto;
+				width: 70vw;
+				display: flex;
+				justify-content: space-between;
+				h3 {
+					font-size: 40px;
+				}
+				h4 {
+					font-size: 40px;
+				}
+			}
+		}
+
+ 	}
+ }
+
+ @media only screen  and (min-width : 1224px) {
+	
+	.schedule {
+ 	
+	 	ul {
+			
+			li {
+				div {
+					width: 50vw;
+
+					h3 {
+						font-size: 30px;
+					}
+
+					h4 {
+						font-size: 30px;
+					}
+				}
+			}
+
+	 	}
+	 } 	
+ }
