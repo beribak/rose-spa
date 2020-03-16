@@ -9,7 +9,7 @@
 		margin-bottom: 30px;
 
 		.header {
-			margin-top: 30vh;
+			margin-top: 25vh;
 			color: white;
 			
 			h1 {
@@ -20,8 +20,14 @@
 			h4 {
 				font-size: 80px;	
 				font-weight: lighter;
-				margin-bottom: 200px;
+				margin-bottom: 100px;
 			}	
+
+			.book {
+				display: block;
+				margin-bottom: 0;
+				font-weight: lighter;
+			}
 		}
 
 	}
@@ -44,6 +50,10 @@
 			h1 {
 				font-size: 55px;
 				border-bottom: 3px solid rgb(237, 38, 71);
+			}
+
+			.book {
+				display: inline;
 			}
 		}
 

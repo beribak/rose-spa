@@ -44,14 +44,15 @@
 		padding: 50px 70px 50px 70px;
 
 		#map {
-			border: 6px solid rgb(237, 38, 71); 	
-			height: 400px; 
+			border: 1px solid rgb(237, 38, 71); 	
+			height: 350px; 
 			width: 450px;
 		}
 
 		.info-text {
 			/*color: white;*/
 			padding: 30px;
+			padding-top: 0;
 			text-align: left;
 
 			ul {
@@ -63,7 +64,7 @@
 				}
 
 				h2 {
-					font-size: 40px;
+					font-size: 30px;
 					color: rgb(237, 38, 71);
 					// border-bottom: 4px solid rgb(237, 38, 71);
 				}
