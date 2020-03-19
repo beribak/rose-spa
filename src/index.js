@@ -8,6 +8,7 @@ import './footer.css';
 import './my_button.css';
 import './schedule.css';
 import './price_list.css';
+import './price_list.js';
 import mapboxgl from 'mapbox-gl';
 
 
@@ -41,7 +42,7 @@ const getCoordinates = (address) => {
 };
 
 const navBarScroll = () => {
-	if (window.pageYOffset > window.innerHeight) {
+	if (window.pageYOffset > window.innerHeight / 7) {
 		// alert("sddsd");
 		navBar.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
 	} else {

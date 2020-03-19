@@ -1,6 +1,6 @@
 
 .bio {
-	height: 90vh;
+	height: 40vh;
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
 	url("https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
 	background-size: cover;
@@ -11,7 +11,7 @@
 	
 	.bio-header{
 		color: white;
-		margin-top: 5vh;
+		margin-top: 8vh;
 	}
 
 	.bio-header h1 {
@@ -39,7 +39,7 @@
 			color: white;
 			position: absolute;
 			right: 5%;
-			bottom: 35%;
+			bottom: 28%;
 			width: 40%;
 		}
 
@@ -50,7 +50,7 @@
 
 		.bio-header h4 {
 			padding: 20px;
-			font-size: 20px;
+			font-size: 25px;
 			font-weight: lighter;
 			/*border-top: 3px solid rgb(237, 38, 71);*/
 			border: 3px solid rgb(237, 38, 71);

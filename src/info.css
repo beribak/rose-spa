@@ -12,7 +12,7 @@
 
 	.info-text {
 		text-align: center;
-		padding: 50px 30px;
+		padding: 50px 30px 30px 30px;
 
 		ul {
 			list-style: none;
@@ -58,7 +58,12 @@
 			text-align: left;
 			
 			.my-link {
-				color: rgb(237, 38, 71);
+				color: black;
+				
+				&:hover {
+					color: rgb(237, 38, 71);
+					text-decoration: none;
+				}
 			}
 
 			ul {

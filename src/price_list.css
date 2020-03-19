@@ -1,5 +1,10 @@
 
 .price_list {
+	display: none;
+	background-color: white;
+	width: 100vw;
+	z-index: 10;
+	/*margin: auto;*/
 
 	.price_card {
 		
