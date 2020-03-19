@@ -1,0 +1,28 @@
+
+.price_list {
+
+	.price_card {
+		
+		padding: 30px;
+
+		ul {
+			list-style: none;
+			padding: 0; 
+		}
+
+		div {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		h1 {
+			font-size: 30px;
+			color: rgb(237, 38, 71);
+		}
+
+		h4 {
+			font-size: 20px;
+		}
+	}
+
+}

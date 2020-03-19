@@ -7,9 +7,8 @@
 	}
 
 	.info-text {
-		padding: 30px;
 		text-align: center;
-		padding: 60px 30px;
+		padding: 50px 30px;
 
 		ul {
 			list-style: none;
@@ -25,7 +24,6 @@
 			h2 {
 				font-size: 60px;
 				color: rgb(237, 38, 71);
-				// border-bottom: 4px solid rgb(237, 38, 71);
 			}
 
 			h4 {
@@ -46,7 +44,7 @@
 	.info {
 		display: flex;
 		justify-content: space-evenly;
-		padding: 50px 70px 50px 70px;
+		padding: 50px 70px 20px 70px;
 
 
 		.info-text {

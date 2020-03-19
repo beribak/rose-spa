@@ -7,7 +7,8 @@
 		
 		padding: 0px;
 		list-style: none;
-		padding-bottom: 20px;
+		padding-top: 60px;
+		/*padding-bottom: 20px;*/
 		li {
 
 			div {
@@ -34,14 +35,14 @@
  	
 	 	margin-bottom: 20px;
 	 	ul {
-	 		padding: 30px;
+	 		padding: 0px 30px 30px 30px;
 	 		margin: auto;
-			width: 40%;
-	 		background-color: rgb(237, 38, 71);
+			/*width: 40%;*/
+	 		/*background-color: rgb(237, 38, 71);*/
 			li {
 				div {
 					width: 30vw;
-					color: white;
+					/*color: white;*/
 					h3 {
 						font-size: 25px;
 						/*color: rgb(237, 38, 71);*/

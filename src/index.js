@@ -7,6 +7,7 @@ import './info.css';
 import './footer.css';
 import './my_button.css';
 import './schedule.css';
+import './price_list.css';
 import mapboxgl from 'mapbox-gl';
 
 
