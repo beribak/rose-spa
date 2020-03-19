@@ -1,6 +1,10 @@
 
 .info {
 
+	.my-link {
+		color: rgb(237, 38, 71);
+	}
+
 	#map {
 		width: 100vw;
 		height: 30vh;
@@ -52,6 +56,10 @@
 			padding: 30px;
 			padding-top: 0;
 			text-align: left;
+			
+			.my-link {
+				color: rgb(237, 38, 71);
+			}
 
 			ul {
 				list-style: none;

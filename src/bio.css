@@ -39,7 +39,7 @@
 			color: white;
 			position: absolute;
 			right: 5%;
-			bottom: 10%;
+			bottom: 35%;
 			width: 40%;
 		}
 
@@ -49,8 +49,11 @@
 		}
 
 		.bio-header h4 {
+			padding: 20px;
 			font-size: 20px;
 			font-weight: lighter;
+			/*border-top: 3px solid rgb(237, 38, 71);*/
+			border: 3px solid rgb(237, 38, 71);
 		}
 	}
 
