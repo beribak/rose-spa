@@ -15,7 +15,7 @@
 			padding: 0; 
 		}
 
-		div {
+		#nav {
 			display: flex;
 			justify-content: space-between;
 		}
