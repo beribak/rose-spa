@@ -1,3 +1,7 @@
+#map {
+	width: 100vw;
+	height: 30vh;
+}
 
 .info {
 
@@ -5,10 +9,6 @@
 		color: rgb(237, 38, 71);
 	}
 
-	#map {
-		width: 100vw;
-		height: 30vh;
-	}
 
 	.info-text {
 		text-align: center;
@@ -40,11 +40,11 @@
 }
 
 @media only screen  and (min-width : 1224px) {
-		#map {
-			border: 1px solid rgb(237, 38, 71); 	
-			height: 350px; 
-			width: 100vw;
-		}
+	#map {
+		border: 1px solid rgb(237, 38, 71); 	
+		height: 350px; 
+		width: 100%;
+	}
 	.info {
 		display: flex;
 		justify-content: space-evenly;

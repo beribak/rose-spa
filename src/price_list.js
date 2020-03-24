@@ -1,23 +1,14 @@
 
-// const priceButton = document.querySelector("#price_button");
-// const priceList = document.querySelector(".price_list");
-// const navbar = document.querySelector(".navbar");
+// const priceButton = document.querySelector(".price_button");
+// const prices = document.querySelector(".price_card ul");
 
-// priceList.style.display = "none";
-// navHeight = navbar.innerHeight;
+// prices.style.display == "none";
 
 // priceButton.addEventListener('click', (e) => {
-// 	if(priceList.style.display == "none") {
-// 		priceList.style.display = "block";
-// 		// priceList.style.position = "absolute";
-// 		// priceList.style.top = "150px";
-// 		navbar.style.overflow = "scroll";
-// 		navbar.style.height = "100vh";
-// 		priceList.style.width = "100vw";
-// 		priceButton.style.color = "rgb(237, 38, 71)";
+// 	if(prices.style.display == "none") {
+// 		prices.style.display = "block";
 // 	} else {
-// 		priceList.style.display = "none";
-// 		priceButton.style.color = "white";
-// 		navbar.style.height = '' + navHeight;
+// 		prices.style.display = "none";
 // 	}
 // });
+ 	

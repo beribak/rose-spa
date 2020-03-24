@@ -1,5 +1,5 @@
 .title {
-	height: 30vh;
+	height: 10vh;
 	background-color: rgb(237, 38, 71);
 	width: 100vw;
 
@@ -11,12 +11,13 @@
 }
 
 .price_list {
-	/*display: none;*/
+	
 	width: 100vw;
 	z-index: 10;
-	/*margin: auto;*/
 
-
+	.price_button {
+		width: 30%;
+	}
 	.price_card {
 		
 		padding: 30px;
@@ -25,11 +26,13 @@
 		border: 2px solid white;
 
 		ul {
+			margin-top: 20px;
 			list-style: none;
 			padding: 0; 
 		}
 
 		div{
+
 			display: flex;
 			justify-content: space-between;
 		}
@@ -44,4 +47,58 @@
 		}
 	}
 
+}
+
+@media only screen  and (min-width : 1224px) {
+
+	.title {
+		height: 30vh;
+		background-color: rgb(237, 38, 71);
+		width: 100vw;
+
+		h1 {
+			padding-top: 50px;
+			color: white;
+			font-size: 50px;
+		}
+	}
+
+	.price_list {
+		
+		width: 100vw;
+		z-index: 10;
+
+		.price_button {
+			width: 30%;
+		}
+		.price_card {
+			
+			padding: 30px;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.8);
+			border: 2px solid white;
+
+			ul {
+				margin-top: 20px;
+				list-style: none;
+				padding: 0; 
+			}
+
+			div{
+
+				display: flex;
+				justify-content: space-between;
+			}
+
+			h1 {
+				font-size: 25px;
+				color: rgb(237, 38, 71);
+			}
+
+			h4 {
+				font-size: 15px;
+			}
+		}
+
+	}
 }
