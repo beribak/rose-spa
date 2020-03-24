@@ -54,12 +54,17 @@
 	.title {
 		height: 30vh;
 		background-color: rgb(237, 38, 71);
-		width: 100vw;
+		width: 100%;
 
 		h1 {
 			padding-top: 50px;
 			color: white;
 			font-size: 50px;
+		}
+
+		.menu-button {
+			display: inline;
+			width: 100px;
 		}
 	}
 
