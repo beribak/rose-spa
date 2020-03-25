@@ -1,25 +1,35 @@
 .title {
-	height: 10vh;
-	background-color: rgb(237, 38, 71);
+	height: 25vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+	url("https://media.istockphoto.com/photos/rose-series-picture-id146004502?s=2048x2048");
+	background-size: cover;
+	background-position: top;
 	width: 100vw;
 
 	h1 {
-		padding-top: 50px;
+		padding-top: 60px;
 		color: white;
-		font-size: 50px;
+		font-size: 90px;
+		margin: auto;
+		margin-bottom: 80px;
+		border-bottom: 3px solid rgb(237, 38, 71);
+		width: 70%;
+	}
+
+	.menu-button {
+		display: inline;
+		width: 100px;
 	}
 }
 
-.price_list {
-	
+.price_list {	
 	width: 100vw;
 	z-index: 10;
 
 	.price_button {
 		width: 30%;
 	}
-	.price_card {
-		
+	.price_card {	
 		padding: 30px;
 		color: white;
 		background-color: rgba(0, 0, 0, 0.8);
@@ -32,7 +42,6 @@
 		}
 
 		div{
-
 			display: flex;
 			justify-content: space-between;
 		}
@@ -52,14 +61,21 @@
 @media only screen  and (min-width : 1224px) {
 
 	.title {
-		height: 30vh;
-		background-color: rgb(237, 38, 71);
+		height: 70vh;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+		url("https://media.istockphoto.com/photos/rose-series-picture-id146004502?s=2048x2048");
+		background-size: cover;
+		background-position: top;
 		width: 100%;
 
 		h1 {
+			width: 35vw;
+			margin: auto;
 			padding-top: 50px;
 			color: white;
 			font-size: 50px;
+			margin-bottom: 30px;
+			border-bottom: 3px solid rgb(237, 38, 71);
 		}
 
 		.menu-button {
@@ -68,16 +84,14 @@
 		}
 	}
 
-	.price_list {
-		
+	.price_list {		
 		width: 100vw;
 		z-index: 10;
 
 		.price_button {
 			width: 30%;
 		}
-		.price_card {
-			
+		.price_card {			
 			padding: 30px;
 			color: white;
 			background-color: rgba(0, 0, 0, 0.8);
@@ -90,7 +104,6 @@
 			}
 
 			div{
-
 				display: flex;
 				justify-content: space-between;
 			}
