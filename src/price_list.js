@@ -3,6 +3,7 @@ const menuBtn = document.querySelectorAll(".menu-button");
 const facialsBtn = document.querySelector(".facial-btn");
 const treatmantsBtn = document.querySelector(".treatmant-btn");
 const wellBeingBtn = document.querySelector(".well-being-btn");
+const title = document.querySelector(".title");
 
 let combinedArray = document.querySelectorAll(".price_card");
 // combinedArray.push(...facials, ...treatmants, ...wellBeing)
@@ -14,6 +15,9 @@ combinedArray.forEach((item) => {
 menuBtn.forEach((item) => {
 	item.addEventListener('click', (e) => {
 
+		if(window.innerWidth > 1224) {
+	  		title.style.height = "50vh";
+	  	}
 		if(e.target.classList.contains('facial-btn')) {
 			combinedArray.forEach((item) => {
 			  if(item.classList.contains("facial")) {
