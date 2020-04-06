@@ -56,6 +56,11 @@ body {
 			color: rgb(237, 38, 71);
 		}
 
+		h6 {
+			font-size: 35px;
+			color: black;
+		}
+
 		h4 {
 			font-size: 35px;
 			color: black;

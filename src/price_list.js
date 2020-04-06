@@ -1,4 +1,3 @@
-
 const menuBtn = document.querySelectorAll(".menu-button");
 const facialsBtn = document.querySelector(".facial-btn");
 const treatmantsBtn = document.querySelector(".treatmant-btn");
