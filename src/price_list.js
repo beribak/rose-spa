@@ -15,7 +15,7 @@ menuBtn.forEach((item) => {
 	item.addEventListener('click', (e) => {
 
 		if(window.innerWidth > 1224) {
-	  		title.style.height = "50vh";
+	  		title.style.height = "65vh";
 	  	}
 		if(e.target.classList.contains('facial-btn')) {
 			combinedArray.forEach((item) => {
