@@ -19,7 +19,7 @@ let latitude = 0;
 const navBar = document.querySelector(".navbar");
 
 const displayMap = () => {
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNqeWszNmdueDA5ZmMzZHE0cnhrdHkwMmUifQ.2JTPShL3KIjvqvYMKWUL3w';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNqemNqamttMzAzanMzb21zN3kyNGptZXUifQ.aEUsF6KOLbAIY19dMvOGdg';
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
