@@ -19,7 +19,7 @@ let latitude = 0;
 const navBar = document.querySelector(".navbar");
 
 const displayMap = () => {
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNqemNqamttMzAzanMzb21zN3kyNGptZXUifQ.aEUsF6KOLbAIY19dMvOGdg';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNrOTVldjAzdjAzMHkzbnFmazdkbndvZ3EifQ.F36m2pawghNPpjpIoVLDcQ';
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
@@ -33,7 +33,7 @@ const displayMap = () => {
 };
 
 const getCoordinates = (address) => {
-  fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/4622&Van&Nuys.json?access_token=pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNqeWszNmdueDA5ZmMzZHE0cnhrdHkwMmUifQ.2JTPShL3KIjvqvYMKWUL3w`)
+  fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/4622&Van&Nuys.json?access_token=pk.eyJ1IjoiZGFua28xOTkwIiwiYSI6ImNrOTVldjAzdjAzMHkzbnFmazdkbndvZ3EifQ.F36m2pawghNPpjpIoVLDcQ`)
     .then(response => response.json())
     .then((data) => {
       longitude = data.features[0].center[0];
