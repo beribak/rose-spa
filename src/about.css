@@ -20,6 +20,44 @@
 	line-height: 40px;
 }
 
+.spa_images {
+		
+		color: rgb(237, 38, 71);;
+		background-color: black;
+		.img {
+			height: 220px;
+			width: 100px;
+			border: 3px solid black;
+			/*margin: 5px;*/
+			background-size: cover;
+			background-position: center;
+		}
+
+		.img_1 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+
+		.img_2 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+
+		.img_3 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+
+		.img_4 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+
+		.img_5 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+
+		.img_6 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+	}
+
 @media only screen  and (min-width: 1224px) {
 	
 	.top-container {
@@ -44,4 +82,51 @@
 		width: 100vw;
 		margin: 0px;
 	}
+
+	.spa_images {
+		padding: 0px;
+		color: rgb(237, 38, 71);;
+		background-color: black;
+		/*margin: 0px 50px 50px 50px;*/
+		margin-bottom: 100px;
+
+		h1 {
+			font-size: 80px;
+			text-align: center; 
+		}
+		.img {
+			height: 300px;
+			width: 90px;
+			border: 3px solid black;
+			background-size: cover;
+			background-position: center;
+		}
+
+		.img_1 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588140800/rose%20spa/IMG-0892_iucufw.jpg') 
+		}
+
+		.img_2 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138642/rose%20spa/IMG-0878_trzfxa.jpg') 
+		}
+
+		.img_3 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138643/rose%20spa/IMG-0879_rt2llv.jpg') 
+		}
+
+		.img_4 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588141437/rose%20spa/IMG-0883_1_agc5w3.jpg') 
+		}
+
+		.img_5 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588141434/rose%20spa/IMG-0884_ws5uof.jpg') 
+		}
+
+		.img_6 {
+			background-image: url('https://res.cloudinary.com/beribak/image/upload/v1588138648/rose%20spa/IMG-0889_vwbwme.jpg') 
+		}
+	}
+
 }
+
+
