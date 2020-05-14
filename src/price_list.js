@@ -1,6 +1,6 @@
 const menuBtn = document.querySelectorAll(".menu-button");
 const facialsBtn = document.querySelector(".facial-btn");
-const treatmantsBtn = document.querySelector(".treatmant-btn");
+const treatmantsBtn = document.querySelector(".treatment-btn");
 const wellBeingBtn = document.querySelector(".well-being-btn");
 const title = document.querySelector(".title");
 
@@ -27,9 +27,9 @@ menuBtn.forEach((item) => {
 			})
 	  	}
 
-	  	if(e.target.classList.contains('treatmant-btn')) {
+	  	if(e.target.classList.contains('treatment-btn')) {
 			combinedArray.forEach((item) => {
-			  if(item.classList.contains("treatmant")) {
+			  if(item.classList.contains("treatment")) {
 			    	item.style.display = "block"
 			    } else {
 			    	item.style.display = "none"
