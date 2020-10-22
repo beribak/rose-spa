@@ -10,3 +10,16 @@
 .red-color {
 	color: rgb(237, 38, 71);
 }
+
+
+@media only screen  and (max-width: 1224px) {
+
+.card {
+	width: 90vw;
+}
+
+.red-color {
+}
+
+
+}
