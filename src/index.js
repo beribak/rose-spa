@@ -1,3 +1,8 @@
+// import '../index.html';
+// import '../bio.html';
+// import '../services.html';
+// import '../reviews.html';
+
 import './styles.css';
 import './bio.css';
 import './banner.css';
@@ -10,7 +15,10 @@ import './schedule.css';
 import './price_list.css';
 import './about.css';
 import './reviews.css';
+
 import './price_list.js';
+
+
 import mapboxgl from 'mapbox-gl';
 
 
