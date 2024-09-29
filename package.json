@@ -34,8 +34,5 @@
     "gh-pages": "^2.2.0",
     "mapbox-gl": "^1.8.1",
     "url-loader": "^4.0.0"
-  },
-  "engines": {
-    "node": "14.15.0"
   }
 }
