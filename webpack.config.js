@@ -38,6 +38,6 @@ module.exports = {
   },
   // 3
   devServer: {
-    contentBase: './dist'
+    static: './dist'
   }
 };
