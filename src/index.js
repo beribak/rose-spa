@@ -52,11 +52,11 @@ const getCoordinates = (address) => {
 };
 
 const navBarScroll = () => {
-	if (window.pageYOffset > window.innerHeight / 7) {
+	if (window.scrollY > window.innerHeight / 7) {
 		// alert("sddsd");
-		navBar.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+		if(navBar) {navBar.style.backgroundColor = "rgba(0, 0, 0, 0.9)"};
 	} else {
-		navBar.style.backgroundColor = "rgba(0, 0, 0, 0)";
+		if(navBar) {navBar.style.backgroundColor = "rgba(0, 0, 0, 0)"};
 	}
 }
 

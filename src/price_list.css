@@ -5,7 +5,7 @@ body {
 .title {
 	height: 30vh;
 	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),
-	url("https://res.cloudinary.com/beribak/image/upload/v1587802050/rose%20spa/services_img_zgvgb3.jpg");
+	url("https://drive.google.com/thumbnail?id=1YOdrgYHFNgYpd75hTHc8FrmPIVzpEz8p&sz=w1000");
 	background-size: cover;
 	background-position: top;
 	width: 100vw;
@@ -89,7 +89,7 @@ body {
 	.title {
 		height: 100vh;
 		background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),
-		url("https://res.cloudinary.com/beribak/image/upload/v1587802050/rose%20spa/services_img_zgvgb3.jpg");
+		url("https://drive.google.com/thumbnail?id=1YOdrgYHFNgYpd75hTHc8FrmPIVzpEz8p&sz=w1000");
 		background-size: cover;
 		background-position: top;
 		width: 100%;
