@@ -9,11 +9,28 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700|Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/site.css">
   </head>
-  <body style= "background-color: black;">
+  <body class="page-with-navbar" style="background-color: black;">
+    <div class="navbar">
+      <div class="left-nav">
+        <a class="nav-home" href="./index.html">ROSE SPA</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <div class="right-nav" id="primary-navigation">
+        <a href="./index.html" class="nav-button">Home</a>
+        <a href="./index.html#info" class="nav-button">Info</a>
+        <a href="./services.html" class="nav-button" id="price_button">Services</a>
+        <a href="./bio.html" class="nav-button">Bio</a>
+        <a href="./reviews.html" class="nav-button active" aria-current="page">Reviews</a>
+      </div>
+    </div>
     
     <!-- <div class="top-container"> -->
-      	<a href="./index.html" class="nav-button text-danger ml-4"><<<</a>
       	<!-- <h1 class="text-title">Reviews</h1> -->
     	<div class="card mt-3">
     		<h3 class="red-color">Highly recommend 	 &nbsp;&#11088;&#11088;&#11088;&#11088;&#11088;</h3>
@@ -51,7 +68,6 @@
 	    	<h5 class="mt-2">A.D. Mar 12, 2020</h5>
     	</div>
     <!-- </div> -->
-    
-    <script src="./bundle.js"></script> 
+    <script src="./js/site.js" defer></script>
   </body>
  </html>

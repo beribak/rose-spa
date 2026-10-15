@@ -8,16 +8,33 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700|Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/site.css">
   </head>
-  <body >
+  <body class="page-with-navbar">
+    <div class="navbar">
+      <div class="left-nav">
+        <a class="nav-home" href="./index.html">ROSE SPA</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <div class="right-nav" id="primary-navigation">
+        <a href="./index.html" class="nav-button">Home</a>
+        <a href="./index.html#info" class="nav-button">Info</a>
+        <a href="./services.html" class="nav-button active" id="price_button" aria-current="page">Services</a>
+        <a href="./bio.html" class="nav-button">Bio</a>
+        <a href="./reviews.html" class="nav-button">Reviews</a>
+      </div>
+    </div>
 	  <div class="title text-center">
-       <a href="./index.html" class="nav-button text-danger ml-4" style="position: absolute; left: 0;"><<<</a>
 	  	<h1>Services Menu</h1>
       <h4 class="roboto-font">Beauty from the inside out</h4>
 	  	<div class="menu">
-	  		<div class="menu-button mybutton treatment-btn">Treatments</div>
-	  		<div class="menu-button mybutton facial-btn">Facials</div>
-	  		<div class="menu-button mybutton well-btn">Well-being</div>
+	  		<button type="button" class="menu-button mybutton treatment-btn" aria-controls="prices" aria-pressed="true">Treatments</button>
+	  		<button type="button" class="menu-button mybutton facial-btn" aria-controls="prices" aria-pressed="false">Facials</button>
+	  		<button type="button" class="menu-button mybutton well-btn" aria-controls="prices" aria-pressed="false">Well-being</button>
 	  	</div>
 	  </div>
 
@@ -209,7 +226,7 @@
             <img src="https://drive.google.com/thumbnail?id=13SGaD9779DaBUSpBUme_g9b6VFF0Kd4f&sz=w1000" style="height: 30vh; object-fit: cover;">
           </div>
           <ul>
-            <li><div><h4>Single</h4><h4>$85</h4></div></li>
+            <li><div><h4>Single</h4><h4>$125</h4></div></li>
             <li><div><h4>Series of 3</h4><h4>$240</h4></div></li>
             <li><div><h4>Series of 6</h4><h4>$450</h4></div></li>
           </ul>
@@ -326,7 +343,7 @@
             <img src="https://drive.google.com/thumbnail?id=1qOjfx_sqz_og_EjWbs7Cd1iCnS339iC0&sz=w1000" alt="" class="service-image" style="height: 30vh; object-fit: cover;">
           </div> 
           <ul>
-            <li><div><h4>Single</h4><h4>$85</h4></div></li>
+            <li><div><h4>Single</h4><h4>$125</h4></div></li>
             <!-- <li><div><h4>Series of 3</h4><h4>$225</h4></div></li> -->
             <li><div><h4>Series of 4</h4><h4>$300</h4></div></li>
             <!-- <li><div><h4>Series of 6</h4><h4>$360</h4></div></li> -->
@@ -388,6 +405,7 @@
   	</div>
     
      
-	<script src="./bundle.js"></script>	
+    <script src="./js/site.js" defer></script>
+    <script src="./js/services.js" defer></script>
   </body>
 </html>

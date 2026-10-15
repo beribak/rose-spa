@@ -8,16 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700|Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./css/site.css">
   </head>
   <body>
   	<div class="navbar">
       
     		<div class="left-nav">
-    			<div>ROSE SPA</div>
+    			<a class="nav-home" href="./index.html" aria-current="page">ROSE SPA</a>
     		</div>
 
-    		<div class="right-nav">
-          <a href="#info" class="nav-button">Info</a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+    		<div class="right-nav" id="primary-navigation">
+          <a href="./index.html" class="nav-button active" aria-current="page">Home</a>
+          <a href="./index.html#info" class="nav-button">Info</a>
     			<a href="./services.html" class="nav-button" id="price_button" >Services</a>
     			<a href="./bio.html" class="nav-button" >Bio</a>
           <a href="./reviews.html" class="nav-button" >Reviews</a>
@@ -109,6 +116,7 @@
         </div>
     </div>
 
-  	<script src="./bundle.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js" defer></script>
+    <script src="./js/site.js" defer></script>
   </body>
 </html>
