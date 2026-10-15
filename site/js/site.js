@@ -3,25 +3,31 @@ const pageHasDarkNavbar = document.body.classList.contains("page-with-navbar");
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector(".right-nav");
 
-if (navbar) {
-  window.addEventListener("scroll", () => {
+const updateNavbarBackground = () => {
+  if (navbar) {
     navbar.style.backgroundColor =
       pageHasDarkNavbar ||
       navbar.classList.contains("is-open") ||
       window.scrollY > window.innerHeight / 7
         ? "rgba(0, 0, 0, 0.9)"
         : "rgba(0, 0, 0, 0)";
-  });
+  }
+};
+
+if (navbar) {
+  window.addEventListener("scroll", updateNavbarBackground);
 }
 
 if (navbar && navToggle && navLinks) {
   const setNavigationOpen = (isOpen) => {
     navbar.classList.toggle("is-open", isOpen);
+    document.body.classList.toggle("navigation-open", isOpen);
     navToggle.setAttribute("aria-expanded", String(isOpen));
     navToggle.setAttribute(
       "aria-label",
       isOpen ? "Close navigation menu" : "Open navigation menu",
     );
+    updateNavbarBackground();
   };
 
   navToggle.addEventListener("click", () => {
